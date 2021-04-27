@@ -86,7 +86,7 @@ func main() {
 			if !de.IsDir() {
 				// Increment our index progress bar so we know the program is working and we know how far along we are
 				indexBar.Add(1)
-				// Aubmit a function to our workgroup that we'll execute later
+				// Submit a function to our workgroup that we'll execute later
 				wp.Submit(func() {
 					// I literally googled `go sha256 hash file` and clicked the first stackoverflow link
 
